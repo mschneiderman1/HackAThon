@@ -1,6 +1,2 @@
-Thanks for downloading this theme!
-
-Theme Name: Knight
-Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
-Author: BootstrapMade
-Author URL: https://bootstrapmade.com
+Fully working PHP/AJAX contact form is available in the pro version.
+You can buy it from: https://bootstrapmade.com/knight-free-bootstrap-theme/
