@@ -172,7 +172,7 @@ color: #fff;
 }
 
 /* Navigation
----------------------------------*/
+--------------------------------*/
 .main-nav-outer{
 	padding:0px;
 	border-bottom:1px solid #dddddd;
@@ -202,6 +202,10 @@ color: #fff;
 	-moz-transition:all 0.3s ease-in-out;
 	-webkit-transition:all 0.3s ease-in-out;
 }
+.main-nav ul{
+    list-style: none;
+    text-align: center;
+}
 
 .main-nav li a:hover{
 	text-decoration:none;
@@ -227,7 +231,7 @@ color: #fff;
 }
 .service-list-col1{
 	float:left;
-	width:60px;
+	width:80px;
 	padding:10px;
 }
 .service-list-col1 i{
