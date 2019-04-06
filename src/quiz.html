@@ -29,8 +29,16 @@
 
         <script>
             function calculate(){
-                var x = parseFloat(document.getElementById('n1').value);
-                document.getElementById("result").innerHTML = x* 2;
+                var shower = parseFloat(document.getElementById('shower').value);
+                var meat = parseFloat(document.getElementById('meat').value);
+                var coffee = parseFloat(document.getElementById('coffee').value);
+                var showertimes = parseFloat(document.getElementById('showertimes').value);
+                var wash = parseFloat(document.getElementById('wash').value);
+                var soda = parseFloat(document.getElementById('soda').value);
+                var dish = parseFloat(document.getElementById('dish').value);
+                var paper = parseFloat(document.getElementById('paper').value);
+
+                document.getElementById("result").innerHTML = (shower * 2.1);
 
             }
         </script>
@@ -45,14 +53,39 @@
     </div>
     <form>
         <div class="form-group container">
-            <label for="n1">Email address</label>
-            <input class="form-control" id="n1" placeholder="Enter email">
+        <label for="shower">What is the average length of your showers (in minutes)?</label>
+        <input class="form-control" id="shower" placeholder="Ex: 30">
         </div>
         <div class="form-group container">
-            <label for="n2">Password</label>
-            <input class="form-control" id="n2" placeholder="Password">
+            <label for="showertimes">How many showers do you take a day?</label>
+            <input class="form-control" id="showertimes" placeholder="Ex: 1">
         </div>
-        <p id="result">faasff</p>
+            <div class="form-group container">
+            <label for="meat">How many pounds of meat do you eat in a day?</label>
+            <input class="form-control" id="meat" placeholder="Ex: 10">
+        </div>
+        <div class="form-group container">
+            <label for="wash">How many times do you wash your clothes in a week?</label>
+            <input class="form-control" id="wash" placeholder="Ex: 10">
+        </div>
+        <div class="form-group container">
+            <label for="paper">How many sheets of paper do you go through in a day?</label>
+            <input class="form-control" id="paper" placeholder="Ex: 10">
+        </div>
+        <div class="form-group container">
+        <label for="coffee">How many cups of coffee do you drink in  a week?</label>
+        <input class="form-control" id="coffee" placeholder="Ex: 10">
+        </div>
+        <div class="form-group container">
+            <label for="soda">How many cans of soda do you drink in a week?</label>
+            <input class="form-control" id="soda" placeholder="Ex: 10">
+        </div>
+        <div class="form-group container">
+            <label for="dish">How many times do you run the dishwasher a week?</label>
+            <input class="form-control" id="dish" placeholder="Ex: 10">
+        </div>
+        <div class = "container"><p id="result"></p></div>
+
     </form>
     <center><button class="btn btn-primary" onclick= "calculate();">Submit</button></center>
 </section>
