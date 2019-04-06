@@ -248,7 +248,11 @@ color: #fff;
 .main-section.alabaster{
 	background:#fafafa;
 }
-
+/* Quiz
+---------------------------------*/
+.quiz{
+	background:#d1ceca;
+}
 /* Featured Work
 ---------------------------------*/
 .featured-work{
