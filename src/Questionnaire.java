@@ -13,9 +13,10 @@ public class Questionnaire {
     }
     public static double[] createArray(Scanner input){
         double[] array  = new double[10];
-        double i = 0;
+        int i = 0;
         while(input.hasNext()){
             array[i] = input.nextInt();
+            i++;
         }
         return array;
     }
