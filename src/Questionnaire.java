@@ -28,6 +28,7 @@ public class Questionnaire {
             total += waterGallons[i] * array[i];
             output.println(waterGallons[i] * array[i]);
         }
+        output.println("You use");
 
     }
 }
