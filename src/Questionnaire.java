@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Questionnaire {
     public static void main(String []args){
         intro();
-        System.out.println(q1());
+        //System.out.println(q1());
     }
     public static void intro(){
         System.out.println("Please Answer the following questions: \n\n");
