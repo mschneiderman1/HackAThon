@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-        <title>Homepage</title>
+        <title>Calculator</title>
 
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
@@ -37,8 +37,11 @@
                 var soda = parseFloat(document.getElementById('soda').value);
                 var dish = parseFloat(document.getElementById('dish').value);
                 var paper = parseFloat(document.getElementById('paper').value);
-
-                document.getElementById("result").innerHTML = (shower * 2.1);
+                var printThis = "You use " + (shower * 2.1 * showertimes) + (meat * 1800) + (coffee * 53) + (wash * 30) + (dish * 6) + (paper * 3) + (16.5 * soda) + " gallons per week."
+                if(printThis == "You use NaNNaNNaNNaNNaNNaNNaN gallons per week."){
+                printThis = "Please fill out all the available boxes with the correct input.";
+                }
+                document.getElementById("result").innerHTML = printThis;
 
             }
         </script>
@@ -46,7 +49,7 @@
 
     <title>How much water do you use?</title>
 <body>
-<section class="main-section " id="form">
+<section class="main-section quiz" id="form">
     <div class="container">
     <h2>Calculate your water usage</h2>
     <h6>How much are you really wasting?</h6>
@@ -62,29 +65,29 @@
         </div>
             <div class="form-group container">
             <label for="meat">How many pounds of meat do you eat in a day?</label>
-            <input class="form-control" id="meat" placeholder="Ex: 10">
+            <input class="form-control" id="meat" placeholder="Ex: 2.7">
         </div>
         <div class="form-group container">
             <label for="wash">How many times do you wash your clothes in a week?</label>
-            <input class="form-control" id="wash" placeholder="Ex: 10">
+            <input class="form-control" id="wash" placeholder="Ex: 4">
         </div>
         <div class="form-group container">
             <label for="paper">How many sheets of paper do you go through in a day?</label>
-            <input class="form-control" id="paper" placeholder="Ex: 10">
+            <input class="form-control" id="paper" placeholder="Ex: 17">
         </div>
         <div class="form-group container">
         <label for="coffee">How many cups of coffee do you drink in  a week?</label>
-        <input class="form-control" id="coffee" placeholder="Ex: 10">
+        <input class="form-control" id="coffee" placeholder="Ex: 12">
         </div>
         <div class="form-group container">
             <label for="soda">How many cans of soda do you drink in a week?</label>
-            <input class="form-control" id="soda" placeholder="Ex: 10">
+            <input class="form-control" id="soda" placeholder="Ex: 13">
         </div>
         <div class="form-group container">
             <label for="dish">How many times do you run the dishwasher a week?</label>
-            <input class="form-control" id="dish" placeholder="Ex: 10">
+            <input class="form-control" id="dish" placeholder="Ex: 3">
         </div>
-        <div class = "container"><p id="result"></p></div>
+        <center> <div class = "container"><h3 id="result"></h3></div></center>
 
     </form>
     <center><button class="btn btn-primary" onclick= "calculate();">Submit</button></center>
