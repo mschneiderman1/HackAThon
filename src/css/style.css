@@ -181,7 +181,7 @@ color: #fff;
 }
 
 .link:active, .link:focus {
-	background: #7cc576;
+	background: #6699ff;
 	text-decoration:none;
 	color:#fff !important;
 }
@@ -421,7 +421,7 @@ img {
 	padding:55px 0;
 	text-align:center;
 }
-.client-part-haead{
+.client-part-head{
 	color:#fdfdfd;
 	font-size:28px;
 	line-height:41px;
@@ -466,7 +466,7 @@ img {
 	line-height:68px;
 	text-align:center;
 	font-size:27px;
-	color:#7cc576;
+	color:#6699ff;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
 	-moz-transition:all 0.3s ease-in-out;
@@ -763,25 +763,6 @@ border: 2px solid #fff;
 	margin:15px auto 35px;
 	width: 76px;
 }
-.copyright, .credits{
-	color:#cccccc;
-	font-size:14px;
-	display:block;
-	text-align:center;
-}
-.copyright a, .credits a{
-	color:#7cc576;
-	font-weight:600;
-	text-decoration: none;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
-}
-
-.copyright a:hover, .credits a:hover {
-	color: #fff;
-}
-
 .res-nav_click {
 	line-height:38px;
 	font-family: 'FontAwesome';
