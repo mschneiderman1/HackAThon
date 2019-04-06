@@ -416,7 +416,7 @@ img {
 /* Clients
 ---------------------------------*/
 .client-part{
-	background:url(../img/Be.jpg) center center no-repeat;
+	background:url(../img/nature-mountains.jpg) center center no-repeat;
 	background-size:cover;
 	padding:55px 0;
 	text-align:center;
@@ -763,25 +763,6 @@ border: 2px solid #fff;
 	margin:15px auto 35px;
 	width: 76px;
 }
-.copyright, .credits{
-	color:#cccccc;
-	font-size:14px;
-	display:block;
-	text-align:center;
-}
-.copyright a, .credits a{
-	color:#7cc576;
-	font-weight:600;
-	text-decoration: none;
-	transition:all 0.3s ease-in-out;
-	-moz-transition:all 0.3s ease-in-out;
-	-webkit-transition:all 0.3s ease-in-out;
-}
-
-.copyright a:hover, .credits a:hover {
-	color: #fff;
-}
-
 .res-nav_click {
 	line-height:38px;
 	font-family: 'FontAwesome';
