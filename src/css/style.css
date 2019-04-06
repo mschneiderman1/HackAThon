@@ -72,6 +72,13 @@ h3{
 	text-transform:uppercase;
 	font-weight:400;
 }
+h4{
+	font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	font-weight:400;
+}
 h6{
 	font-size:16px;
 	color:#888888;
@@ -83,6 +90,21 @@ h6{
 p{
 	line-height:24px;
 	margin:0;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	font-weight:500;
+}
+
+input{
+font-family: 'Montserrat', sans-serif;
+	color:#222222;
+	font-size:16px;
+	margin:0 0 5px 0;
+	font-weight:400;
 }
 
 /* Header Styles
@@ -138,7 +160,7 @@ color: #fff;
 
 .link{
 	padding:15px 35px;
-	background:#7cc576;
+	background: #6699ff;
 	color:#fff !important;
 	font-size:16px;
 	font-weight:400;
@@ -154,7 +176,7 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color: #6699ff !important;
 	background:#fff;
 }
 
@@ -680,7 +702,7 @@ border: 2px solid #fff;
 .input-btn{
 	width:175px;
 	height:50px;
-	background:#7cc576;
+	background: #6699ff;
 	border-radius:4px;
 	color: white;
 	font-size:14px;

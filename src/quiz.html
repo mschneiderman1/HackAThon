@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1">
 
-        <title>Calculator</title>
+        <title>AQsustain</title>
 
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
@@ -42,6 +42,11 @@
                 if(printThis == "You use NaN gallons per week."){
                 printThis = "Please fill out all the available boxes with the correct input.";
                 results = "Error"
+                var array = {(shower * 2.1 * showertimes), (meat * 1800), (coffee * 53), (wash * 30), (dish * 6), (paper * 3), (16.5 * soda)};
+                var max = Math.max(...numbers);
+                var index = array.indexOf(max);
+                var highest =;
+                if(index )
                 }
                 document.getElementById("result").innerHTML = printThis;
                 document.getElementById("header").innerHTML = results;
@@ -108,7 +113,7 @@
 
 
     </form>
-    <center><button class="btn btn-primary" onclick= "calculate();" data-toggle="modal" data-target="#myModal">Submit</button></center>
+    <center><button class="input-btn" onclick= "calculate();" data-toggle="modal" data-target="#myModal">Submit</button></center>
 </section>
 <!--main-section-end-->
 
