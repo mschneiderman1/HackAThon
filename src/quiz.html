@@ -6,8 +6,6 @@
         <meta name="viewport" content="width=device-width, maximum-scale=1">
 
         <title>Homepage</title>
-        <link rel="icon" href="favicon.png" type="image/png">
-        <link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
 
         <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
@@ -29,6 +27,13 @@
         <script type="text/javascript" src="js/magnific-popup.js"></script>
         <script src="contactform/contactform.js"></script>
 
+        <script>
+            function calculate(){
+                var x = parseFloat(document.getElementById('n1').value);
+                document.getElementById("result").innerHTML = x* 2;
+
+            }
+        </script>
     </head>
 
     <title>How much water do you use?</title>
@@ -39,21 +44,17 @@
     <h6>How much are you really wasting?</h6>
     </div>
     <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        <div class="form-group container">
+            <label for="n1">Email address</label>
+            <input class="form-control" id="n1" placeholder="Enter email">
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <div class="form-group container">
+            <label for="n2">Password</label>
+            <input class="form-control" id="n2" placeholder="Password">
         </div>
-        <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <p id="result">faasff</p>
     </form>
+    <center><button class="btn btn-primary" onclick= "calculate();">Submit</button></center>
 </section>
 <!--main-section-end-->
 
