@@ -1,18 +1,19 @@
 import java.util.Scanner;
 
 public class Questionnaire {
-    public static void main(String args){
+    public static void main(String []args){
         intro();
-        q1();
+        System.out.println(q1());
     }
     public static void intro(){
         System.out.println("Please Answer the following questions: \n\n");
     }
-    public static String q1(){
+    public static double q1(){
         Scanner console = new Scanner(System.in);
 
         System.out.println("What is the average length of your showers in minutes?");
-        return console.next();
+        int hours = console.nextInt();
 
+        return hours * 8.2;
     }
 }
