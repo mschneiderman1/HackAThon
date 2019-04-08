@@ -840,7 +840,9 @@ border: 2px solid #fff;
     background-color:#eff2f7;
     background-position: bottom;
     background-repeat: no-repeat;
-
+    width: 100%;
+    height: auto;
+  }
  .usagepadding {
       margin: 100px;
     }
